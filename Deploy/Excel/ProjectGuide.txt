@@ -1,0 +1,48 @@
+Excel Data Importer Project Guide
+________________________________________
+Overview
+This document provides instructions for starting and stopping the Excel Add-in project. Node.js is a mandatory prerequisite.
+________________________________________
+System Requirements
+•	Windows 7 or later
+•	Node.js (LTS version recommended)
+•	Microsoft Excel 2016 or later
+________________________________________
+Node.js Installation
+1.	Download the LTS version of Node.js from https://nodejs.org/.
+2.	Follow the installation prompts.
+3.	Verify installation by opening Command Prompt and executing:
+4.	node -v
+   A version number indicates successful installation.
+________________________________________
+Starting the Project :
+Using Batch File
+1.	Navigate to the project directory.
+2.	Double-click the start.bat file.
+3.	The script will:
+•	Verify Node.js installation.
+•	Install dependencies if the node_modules folder is missing.
+•	Launch the project via npm start.
+4.	he add-in will load automatically.
+  Manual Method
+1.	Open Command Prompt.
+2.	Change directory to the project folder:
+•	cd <path_to_project>
+3.	Install dependencies (if necessary):
+•	npm install
+4.	Start the project:
+•	npm start
+________________________________________
+Stopping the Project
+Using Batch File
+1.	Navigate to the project directory.
+2.	Double-click the stop.bat file.
+3.	This will terminate any running Node.js processes related to the project.
+Manual Method
+1.	In the Command Prompt window where the project is running, press Ctrl + C.
+2.	Confirm termination if prompted.
+________________________________________
+Notes
+•	Run batch files as Administrator to avoid permission issues.
+•	Node.js must be installed for the project to run.
+
