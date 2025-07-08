@@ -87,7 +87,7 @@
     </Resources>
     <WebApplicationInfo>
       <Id>ab1349c6-78b8-4824-800b-066ea1c49997</Id>
-      <Resource>api://officeaddins-bdc3gddxhrdff2ae.canadacentral-01.azurewebsites.net/ab1349c6-78b8-4824-800b-066ea1c49997</Resource>
+      <!-- <Resource>api://officeaddins-bdc3gddxhrdff2ae.canadacentral-01.azurewebsites.net/ab1349c6-78b8-4824-800b-066ea1c49997</Resource> -->
       <Scopes>
         <Scope>User.Read</Scope>
         <Scope>profile</Scope>
